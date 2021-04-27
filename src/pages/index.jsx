@@ -106,7 +106,7 @@ export default function Index() {
         <div className="container">
           <img
             className="hero__brand-img"
-            src="../../static/img/Textful-Logo+White.svg"
+            src="@site/static/img/Textful-Logo+White.svg"
             width="150px"
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
