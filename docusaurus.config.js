@@ -4,7 +4,7 @@ const { default: clsx } = require("clsx");
 module.exports = {
   title: "Textful",
   tagline: "A useful and modular NPM package in formatting string literals.",
-  url: "https://textful.aktindo.me/", // Your website URL
+  url: "https://aktindo.me/textful-docs", // Your website URL
   baseUrl: "/",
   projectName: "textful-docs",
   organizationName: "aktindo",
