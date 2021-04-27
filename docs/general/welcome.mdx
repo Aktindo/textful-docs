@@ -1,0 +1,98 @@
+---
+id: welcome
+title: Welcome
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+[![Discord stats](https://img.shields.io/discord/772129415005470740?color=%237289DA&logo=discord&logoColor=white)](https://aktindo.me/discord)
+![NPM Version](https://img.shields.io/npm/v/textful?color=%238c7ae6)
+![NPM downloads](https://img.shields.io/npm/dt/textful)
+
+[![NPM](https://nodei.co/npm/textful.png)](https://nodei.co/npm/textful/)
+
+## About
+
+Textful is a simple and modular [**node.js**](https://nodejs.org) module that is capable of formatting string literals, reversing them, converting them to other formats and much more!
+
+- Object oriented
+- Speedy and efficient
+- Feature rich
+- Well maintained
+
+## Installation
+
+:::caution
+
+Note that Node.js v12 or above is required for textful to work properly.
+
+:::
+
+:::note
+
+Ignore any warnings about unmet peer dependencies, as they're all optional.
+
+:::
+
+<Tabs
+  defaultValue="npm"
+  values={[
+    { label: "NPM", value: "npm" },
+    { label: "Yarn", value: "yarn" },
+  ]}
+>
+  <TabItem value="npm">
+    <code>npm i textful</code>
+  </TabItem>
+  <TabItem value="yarn">
+    <code>yarn add textful</code>
+  </TabItem>
+</Tabs>
+
+## Example Usage
+
+### In file
+
+#### JavaScript
+
+```javascript
+const textful = require("textful");
+const textFormatter = new textful.Formatter();
+
+console.log(textFormatter.toSnakeCase("Hello World!"));
+```
+
+#### TypeScript
+
+```typescript
+import textful from "textful";
+const textFormatter = new textful.Formatter();
+
+console.log(textFormatter.toSnakeCase("Hello World!"));
+```
+
+### With the CLI
+
+If you have installed the package, you can run `textful` in the installed dir, and it will guide you accordingly.  
+If you do not want to install it, you can run `npx textful` which will use npx to run the command.
+
+:::caution
+To use NPX, npm version 5.2+ is required.
+:::
+
+## Links
+
+- [Website](https://textful.aktindo.me) ([source](https://github.com/aktindo/textful-docs))
+- [Documentation](https://texful.aktindo.me/docs/general/welcome)
+- [Discord server](https://aktindo.me/discord)
+- [NPM](https://npmjs.com/package/textful)
+- [GitHub](https://github.com/aktindo/textful)
+
+## Contributing
+
+Before creating an issue, please ensure that it hasn't already been reported/suggested, and double-check the [documentation](https://textful.aktindo.me/docs/general/welcome).
+
+## Help
+
+If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to join our official [Discord server](https://aktindo.me/discord).

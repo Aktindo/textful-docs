@@ -1,0 +1,152 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+* {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --ifm-color-primary: #8c7ae6;
+  --ifm-color-primary-dark: #7c6ad4;
+  --ifm-color-primary-darker: #705fc5;
+  --ifm-color-primary-darkest: #54469b;
+  --ifm-color-primary-light: #a494f1;
+  --ifm-color-primary-lighter: #b1a2fc;
+  --ifm-color-primary-lightest: #c6bbff;
+  --ifm-code-font-size: 95%;
+}
+
+:root[data-theme="light"] {
+  --admonition-background-color: #f3f5f7;
+  --admonition-color: #000;
+}
+
+:root[data-theme="dark"] {
+  --admonition-background-color: #292d3e;
+  --admonition-color: #fff;
+}
+
+.hero {
+  background-color: var(--ifm-color-primary-darker);
+  color: #fff;
+}
+
+.hero__install-command-container {
+  padding: 10px 20px 10px 20px;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.admonition {
+  --ifm-alert-background-color: var(--admonition-background-color);
+  --ifm-alert-border-color: var(--admonition-background-color);
+  --ifm-alert-color: var(--admonition-color);
+}
+
+.admonition-note {
+  border-left-color: darken(var(--admonition-color)) !important;
+  border-left-width: 8px !important;
+}
+
+.admonition-tip {
+  border-left-color: #2ecc71 !important;
+  border-left-width: 8px !important;
+}
+
+.admonition-info {
+  border-left-color: #3498db !important;
+  border-left-width: 8px !important;
+}
+
+.admonition-caution {
+  border-left-color: #f1c40f !important;
+  border-left-width: 8px !important;
+}
+
+.admonition-danger {
+  border-left-color: #e74c3c !important;
+  border-left-width: 8px !important;
+}
+
+.admonition-icon svg {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  stroke-width: 0;
+  fill: var(--admonition-color) !important;
+  stroke: var(--admonition-color) !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.button {
+  margin: 5px;
+}
+
+.button--blurple {
+  background-color: #7289da;
+  border-color: #7289da;
+}
+
+.button--blurple:hover {
+  background-color: #8ca2f3;
+  border-color: #8ca2f3;
+}
+
+.property-blockquote {
+  padding: none;
+  margin: none;
+  border-width: 3px;
+  border-color: var(--ifm-color-primary-light);
+}
+
+.property-blockquote li {
+  list-style-type: symbols("");
+}
+
+.property-blockquote li a {
+  padding-right: 15px;
+  padding-left: 3px;
+  color: var(--ifm-font-color);
+}
+
+.property-blockquote li a:hover {
+  color: var(--ifm-color-primary);
+}
+
+.property-info__table table tr,
+.property-info__table table th,
+.property-info__table table td {
+  text-align: center;
+}
+
+.property-info__table table th {
+  background-color: #a494f1 !important;
+  border: none;
+  color: white;
+}
+
+.property-info__property-name {
+  color: var(--ifm-font-color);
+}
+
+.property-info__property-name:hover {
+  color: var(--ifm-color-primary);
+}
+
+.property-info__property-name code {
+  background-color: transparent;
+  font-weight: 400;
+}
